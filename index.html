@@ -7,7 +7,48 @@
     <link rel="stylesheet" href="/sass/main.scss">
     <title>Vite App</title>
   </head>
+  
   <body>
+
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header__layout">
+          <img class="logo" src="assets/logo.svg" alt="">
+          <nav class="nav flex-group">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#hours">Hours</a></li>
+            <li><a href="#prices">Prices</a></li>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="container">
+          <div class="even-columns">
+            <div class="margin-block-15">
+              <h1 class="heading-1 | clr-accent-400">The Barber Shop</h1>
+              <p>Established over a decade ago, <bold>The Barber Shop</bold> is here tp serve
+              your hair needs, whatever they are. From a simple cut, a beard trim or a hot
+              towel shave, we're here to help you wit</p>
+              <div class="flex-group">
+                <button class="button" data-type="accent">Book appointment</button>
+                <button class="button" data-type="primary">View prices</button>
+              </div>
+            </div>
+            <div>
+              <img class="margin-block-4 border-radius-2" src="assets/hair-cut.jpg" alt="a barber and a client">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section></section>
+    </main>
+
+    <footer></footer>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
