@@ -23,7 +23,7 @@
  }
 
  @mixin heading($fs, $color: $heading-color-default) {
-  font-size: $fs;
+  font-size: $fs; 
   color: $color;
   
   font-family: $heading-font-family;
