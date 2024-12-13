@@ -3,14 +3,16 @@
 @use 'sizes' as *;
 
 // Layout
-$grid-gap: 1.5rem;
-$flex-group-gap: 1rem;
+$grid-gap: $size-6;
+$flex-group-gap: $size-4;
 
-$hero-padding: clamp(15rem, 15vh, 20rem);
-$section-padding: clamp(3rem, 10vh, 7rem);
+$hero-padding-block: clamp(15rem, 15vh, 20rem);
+$section-padding-block: clamp(5rem, 10vh, 6rem);
+   
+$card-body-padding: $size-8;
 
-$container-inline-padding: 1rem;
-$container-max-width: 60rem;
+$container-min-margin-inline: $size4;
+$container-max-width: 64rem;
+$container-max-width-narrow: 40rem;
 $container-max-width-wide: 75rem;
 
-$card-body-padding: clamp(2rem, 3.5vw, 5rem);

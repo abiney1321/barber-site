@@ -33,3 +33,7 @@ $size-12: 5rem;
 $size-13: 6rem;
 $size-14: 8rem;
 $size-15: 10rem;
+
+// fluid sizes
+$size-fluid-1: clamp($size-2, 2vw, $size-4);
+$size-fluid-2: clamp($size-4, 4vw, $size-6);
