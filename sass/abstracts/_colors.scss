@@ -9,9 +9,9 @@ $-clr-brown-300: hsl(33 23% 69%);
 $-clr-brown-400: hsl(22 31% 44%);
 $-clr-brown-700: hsl(20 23% 23%);
 $-clr-brown-800: hsl(18 23% 10%);
+$-clr-brown-900: hsl(18 23% 7%);
 
-
-$colors: (
+$light: (
   "neutral": (
     "100": $-clr-white,
   ),
@@ -36,12 +36,12 @@ $dark: (
   ),
   "accent": (
     "300": $-clr-orange-300,
-    "400": $-clr-orange-400,
+    "400": $-clr-orange-300,
     "500": $-clr-orange-500,
   ),
   "primary": (
-    "100": $-clr-brown-800,
-    "200": $-clr-brown-700,
+    "100": $-clr-brown-900,
+    "200": $-clr-brown-800,
     "300": $-clr-brown-400,
     "400": $-clr-brown-300,
     "700": $-clr-brown-200,
