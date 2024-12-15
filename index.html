@@ -178,7 +178,7 @@
             </div>
             <div class="form-group">
               <label for="date">Date</label>
-              <input type="date" style="color: hsl(33 23% 69%)" required>
+              <input type="date" style="color: var(--primary-300)" required>
             </div>
             <div class="form-group">
               <label for="phone number">Phone number</label>
@@ -209,6 +209,35 @@
           <p><a href="tel:0247726157">(233) 024 772 6157</a></p>
         </div>
       </div>
+
+      <fieldset class="theme-switcher flex-group mx-auto margin-block-start-10 clr-primary-100">
+        <legend class="mx-auto">Theme:</legend>
+      
+        <div class="theme-switcher__options flex-group">
+      
+          <div class="theme-switcher__option-group">
+            <input id="system" class="theme-switcher__input" name="theme" type="radio" checked>
+            <label for="system" class="theme-switcher__label clr-primary-100">System</label>
+          </div>
+      
+          <div class="theme-switcher__option-group">
+            <input id="light" class="theme-switcher__input" name="theme" type="radio">
+            <label for="light" class="theme-switcher__label clr-primary-100">Light</label>
+          </div>
+      
+          <div class="theme-switcher__option-group">
+            <input id="dark" class="theme-switcher__input" name="theme" type="radio">
+            <label for="dark" class="theme-switcher__label clr-primary-100">Dark</label>
+          </div>
+          
+          <div class="theme-switcher__option-group">
+            <input id="😎" class="theme-switcher__input" name="theme" type="radio">
+            <label for="😎" class="theme-switcher__label clr-primary-100">Sleek</label>
+          </div>
+
+        </div>
+      
+      </fieldset>
     </footer>
 
     <svg width="0" height="0">

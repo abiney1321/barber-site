@@ -2,7 +2,7 @@
 @use 'typography' as *;
 @use 'sizes' as *;
 
-$active-theme: $dark;
+$active-theme: $light;
 
 // Contextual
 $color-text-default: $color-primary-700;
@@ -51,6 +51,14 @@ $border-radius-2: $size-4;
 // shadows
 $box-shadow-1: 0 $size-1 $size-4 rgb(0 0 0 / 0.05);
 $box-shadow-2: 0 $size-1 $size-4 rgb(0 0 0 / 0.15);
+
+// logo
+$logo-fill-default: $color-primary-400;
+$logo-fill-header: $color-primary-300;
+$logo-fill-footer: $color-accent-400;
+$logo-size-default: 15rem;
+$logo-size-header: $logo-size-default;
+$logo-size-footer: $logo-size-default;
 
 // buttons
 $button-font-family: $body-font-family;
